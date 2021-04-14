@@ -33,7 +33,9 @@
 ```clisp <filename>.lisp```
 e.g. clisp clisp_hello_world.lisp
 
-## How to write hellow world
+## How to write hello world
 (print "hello world")
 
-- how to compile
+
+## What is the basic syntax?
+- variables
