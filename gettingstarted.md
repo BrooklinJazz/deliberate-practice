@@ -7,6 +7,7 @@
 - C#
 - Unreal
 - Javascript
+- Git
 
 # Basic Understanding of each
 - what resources do I use to learn this?
@@ -18,6 +19,12 @@
 - Why would I use this?
 - Where did this originate?
 - Who are some key figures in the community?
+
+# Git
+## Resources
+
+## Set Up SSH
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
 # Lisp
 ## Resources
