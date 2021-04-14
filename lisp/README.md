@@ -38,3 +38,5 @@ LISP is a functional programming language.
 As one of the earliest programming languages, Lisp pioneered many ideas in computer science, including tree data structures, automatic storage management, dynamic typing, conditionals, higher-order functions, recursion, the self-hosting compiler,[7] and the read–eval–print loop.[8]
 
 Lisp was first implemented by Steve Russell on an IBM 704 computer using punched cards.[12] Russell had read McCarthy's paper and realized (to McCarthy's surprise) that the Lisp eval function could be implemented in machine code.[13] The result was a working Lisp interpreter which could be used to run Lisp programs, or more properly, "evaluate Lisp expressions".
+
+Steve Russel also created Spacewar in 1961 - or atleast I watched a video of him at the computer history museum.
