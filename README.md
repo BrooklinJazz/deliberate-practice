@@ -11,6 +11,9 @@
 - Unreal
 - Javascript
 - Git
+- Assembly
+- FORTRAN
+- ALGOL
 
 # Basic Understanding of each
 - what resources do I use to learn this?
