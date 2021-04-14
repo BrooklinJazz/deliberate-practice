@@ -23,6 +23,20 @@
 - Where did this originate?
 - Who are some key figures in the community?
 
+# Template:
+```
+# Language
+## Resources
+## Installation
+## Run/Compile on CMD line
+## Run/Compile a file
+## How to write hello world
+## What is the basic syntax?
+## Where did this originate?
+## Why would I use this?
+## WHo are some key figures in the community
+```
+
 # Git
 ## Resources
 
