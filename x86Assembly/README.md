@@ -91,6 +91,12 @@ The term "assembler" is generally attributed to Wilkes, Wheeler and Gill in thei
 
 
 ## Why would I use this?
+Assembly language was created as an exact shorthand for machine level coding, so that you wouldn't have to count 0s and 1s all day
+
+Today, assembly language is used primarily for direct hardware manipulation, access to specialized processor instructions, or to address critical performance issues.
+
+You learn how computer hardware works by working with assembly.
+
 
 
 ## Who are some key figures in the community
