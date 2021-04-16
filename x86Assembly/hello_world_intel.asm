@@ -17,7 +17,8 @@ _start
 section .data:
 ; db = define bytes
     message: db "Hello World!", 0xA ; 0xA = newline character
-    message_length equ $-message ; length of message
+    ; $ - message =  length = start of the string ($) minus end of the string
+    message_length equ $-message
 
 ; to execute
 ; nasm -f elf32 -o hello_world_intel

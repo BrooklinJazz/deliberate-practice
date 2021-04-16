@@ -14,6 +14,8 @@ This is a fast, simple, easy to use Intel 8031/8051 assembler.
 `nasm`: General-purpose x86 assembler
 Netwide Assembler. NASM will currently output flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files.
 
+## Elf (Executable and Linking Format)
+
 ## elf 64
 `nasm -f elf64 hello_world.asm` # assemble the program  
 `ld -s -o hello_world hello_world.o` # link the object file nasm produced into an executable file  
@@ -50,8 +52,7 @@ len     equ $ - msg
 sudo apt install mlocate
 `locate unistd32.h`
 
-## What is the basic syntax?
-### A Register
+## A Register
 A register is like a variable, except that there are a fixed number of registers. Each register is a special spot in the CPU where a single value is stored. 
 
 General Purpose Registers
@@ -81,5 +82,17 @@ Special purpose Registers
     - In the flags register, each bit has a specific meaning and they are used to store meta-information about the results of previous operations. For example, whether the last calculation overflowed the register or whether the operands were equal.
 
 ## Where did this originate?
+In computer programming, assembly language (or assembler language),[1] often abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions.[2] Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. Assembly language may also be called symbolic machine code.[3][4]
+
+Assembly code is converted into executable machine code by a utility program (the `assembler`)
+
+The term "assembler" is generally attributed to Wilkes, Wheeler and Gill in their 1951 book The Preparation of Programs for an Electronic Digital Computer,[7] who, however, used the term to mean "a program that assembles another program consisting of several sections into a single program".
+
+
+
 ## Why would I use this?
+
+
 ## Who are some key figures in the community
+
+Wilkes, Wheeler and Gill in their 1951 book The Preparation of Programs for an Electronic Digital Computer
