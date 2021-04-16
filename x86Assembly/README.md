@@ -14,9 +14,20 @@ This is a fast, simple, easy to use Intel 8031/8051 assembler.
 `nasm`: General-purpose x86 assembler
 Netwide Assembler. NASM will currently output flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files.
 
+## elf 64
 `nasm -f elf64 hello_world.asm` # assemble the program  
 `ld -s -o hello_world hello_world.o` # link the object file nasm produced into an executable file  
 `./hello_world` # hello is an executable file
+
+## elf 32
+nasm -f elf32 -o hello_world_intel
+ld -m elf_i386 -o hello_world_intel hello_world_intel.o
+./hello_world_intel
+
+
+I don't think I understand the difference between elf32 and elf 64 but I assume that they are different ways of writing assembly language and require different compilers.
+
+I think it's probably the 32 vs 64 bit versions of x86 assembly?
 
 ## How to write hello world
 ```
